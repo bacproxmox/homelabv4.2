@@ -1,0 +1,342 @@
+[
+    {
+        "v4":  "vms/vm101-truenas/create-shell.sh",
+        "legacy":  "flows/truenas/create-vm.sh",
+        "title":  "VM101 TrueNAS create shell"
+    },
+    {
+        "v4":  "vms/vm101-truenas/postinstall-storage.sh",
+        "legacy":  "flows/truenas/postinstall-and-storage.sh",
+        "title":  "VM101 TrueNAS postinstall and storage"
+    },
+    {
+        "v4":  "vms/vm102-docker-arr/create.sh",
+        "legacy":  "tasks/vm/102-docker-arr-vm-install.sh",
+        "title":  "VM102 Docker ARR create"
+    },
+    {
+        "v4":  "vms/vm103-network/create.sh",
+        "legacy":  "tasks/vm/103-network-vm-install.sh",
+        "title":  "VM103 Network create"
+    },
+    {
+        "v4":  "vms/vm104-nextcloud/create.sh",
+        "legacy":  "tasks/vm/104-nextcloud-vm-install.sh",
+        "title":  "VM104 Nextcloud create"
+    },
+    {
+        "v4":  "vms/vm105-homeassistant/create.sh",
+        "legacy":  "tasks/vm/105-homeassistant-vm-install.sh",
+        "title":  "VM105 Home Assistant create"
+    },
+    {
+        "v4":  "vms/vm106-docker-media/create.sh",
+        "legacy":  "tasks/vm/106-media-ai-vm-install.sh",
+        "title":  "VM106 Docker Media create"
+    },
+    {
+        "v4":  "vms/vm107-chia-farmer/create.sh",
+        "legacy":  "tasks/vm/107-chia-farmer-vm-install.sh",
+        "title":  "VM107 Chia Farmer create"
+    },
+    {
+        "v4":  "vms/vm110-pbs-backup/create.sh",
+        "legacy":  "tasks/vm/110-pbs-backup-vm-install.sh",
+        "title":  "VM110 PBS Backup create"
+    },
+    {
+        "v4":  "services/docker/prepare-host.sh",
+        "legacy":  "tasks/services/common/prepare-docker-host.sh",
+        "title":  "Prepare one Docker host"
+    },
+    {
+        "v4":  "services/docker/prepare-all-hosts.sh",
+        "legacy":  "tasks/services/common/prepare-all-docker-hosts.sh",
+        "title":  "Prepare all Docker hosts"
+    },
+    {
+        "v4":  "services/arr/install.sh",
+        "legacy":  "tasks/services/arr/install.sh",
+        "title":  "ARR stack install"
+    },
+    {
+        "v4":  "services/arr/configure-prowlarr-indexers.sh",
+        "legacy":  "tasks/services/arr/configure-prowlarr-indexers.sh",
+        "title":  "Prowlarr indexers config"
+    },
+    {
+        "v4":  "services/seerr/install.sh",
+        "legacy":  "tasks/services/seerr/install.sh",
+        "title":  "Jellyseerr install"
+    },
+    {
+        "v4":  "services/uptime-kuma/install.sh",
+        "legacy":  "tasks/services/uptime-kuma/install.sh",
+        "title":  "Uptime Kuma install"
+    },
+    {
+        "v4":  "services/nextcloud/install.sh",
+        "legacy":  "tasks/services/nextcloud/install.sh",
+        "title":  "Nextcloud install"
+    },
+    {
+        "v4":  "services/jellyfin/install.sh",
+        "legacy":  "tasks/services/jellyfin/install.sh",
+        "title":  "Jellyfin install"
+    },
+    {
+        "v4":  "services/immich/install.sh",
+        "legacy":  "tasks/services/immich/install.sh",
+        "title":  "Immich install"
+    },
+    {
+        "v4":  "services/ollama/install.sh",
+        "legacy":  "tasks/services/ollama/install.sh",
+        "title":  "Ollama/OpenWebUI install"
+    },
+    {
+        "v4":  "services/lidarr/install.sh",
+        "legacy":  "tasks/services/lidarr/install.sh",
+        "title":  "Lidarr install"
+    },
+    {
+        "v4":  "services/homeassistant/install.sh",
+        "legacy":  "tasks/services/homeassistant/install.sh",
+        "title":  "Home Assistant install"
+    },
+    {
+        "v4":  "services/pbs/install.sh",
+        "legacy":  "tasks/services/pbs/install.sh",
+        "title":  "PBS service install"
+    },
+    {
+        "v4":  "services/chia/install.sh",
+        "legacy":  "tasks/services/chia/install.sh",
+        "title":  "Chia farmer service install"
+    },
+    {
+        "v4":  "services/chia/db-bootstrap-start.sh",
+        "legacy":  "tasks/services/chia/db-bootstrap-start.sh",
+        "title":  "Chia DB bootstrap and start"
+    },
+    {
+        "v4":  "services/cloudflared/prepare-credentials.sh",
+        "legacy":  "tasks/services/cloudflared/prepare-tunnel-credentials.sh",
+        "title":  "Cloudflared credentials prepare"
+    },
+    {
+        "v4":  "services/cloudflared/install.sh",
+        "legacy":  "tasks/services/cloudflared/install.sh",
+        "title":  "Cloudflared install"
+    },
+    {
+        "v4":  "services/cloudflared/generate-ingress-reference.sh",
+        "legacy":  "tasks/services/cloudflared/generate-ingress-config-reference.sh",
+        "title":  "Cloudflared ingress reference"
+    },
+    {
+        "v4":  "config/post-services/run-all.sh",
+        "legacy":  "tasks/config/run-all-core-config.sh",
+        "title":  "Post service config run all"
+    },
+    {
+        "v4":  "config/arr/export-api-keys.sh",
+        "legacy":  "config/arr/00-export-arr-api-keys.sh",
+        "title":  "ARR API key export"
+    },
+    {
+        "v4":  "config/arr/configure-basics.sh",
+        "legacy":  "config/arr/01-configure-arr-basics.sh",
+        "title":  "ARR basics config"
+    },
+    {
+        "v4":  "config/arr/configure-auth.sh",
+        "legacy":  "config/arr/05-configure-service-auth.sh",
+        "title":  "ARR auth config"
+    },
+    {
+        "v4":  "config/arr/configure-integrations.sh",
+        "legacy":  "config/arr/06-configure-arr-integrations.sh",
+        "title":  "ARR integrations config"
+    },
+    {
+        "v4":  "config/arr/language-policy.sh",
+        "legacy":  "config/arr/07-sonarr-radarr-language-policy.sh",
+        "title":  "ARR language policy"
+    },
+    {
+        "v4":  "config/qbittorrent/auto-config.sh",
+        "legacy":  "config/qbittorrent/01-qbittorrent-auto-config.sh",
+        "title":  "qBittorrent auto config"
+    },
+    {
+        "v4":  "config/prowlarr/add-canonical-indexers.sh",
+        "legacy":  "config/prowlarr/01-add-canonical-indexers.sh",
+        "title":  "Prowlarr canonical indexers"
+    },
+    {
+        "v4":  "config/bazarr/languages-media-management.sh",
+        "legacy":  "config/bazarr/07-bazarr-languages-and-media-management.sh",
+        "title":  "Bazarr languages media management"
+    },
+    {
+        "v4":  "config/jellyfin/libraries-and-users.sh",
+        "legacy":  "config/jellyfin/01-jellyfin-libraries-and-users.sh",
+        "title":  "Jellyfin libraries and users"
+    },
+    {
+        "v4":  "config/nextcloud/local-cloudflare-fix.sh",
+        "legacy":  "config/nextcloud/01-nextcloud-local-and-cloudflare-fix.sh",
+        "title":  "Nextcloud local and Cloudflare fix"
+    },
+    {
+        "v4":  "config/nextcloud/smtp-users.sh",
+        "legacy":  "config/nextcloud/02-nextcloud-smtp-google-and-users.sh",
+        "title":  "Nextcloud SMTP and users"
+    },
+    {
+        "v4":  "config/nextcloud/oauth-provider.sh",
+        "legacy":  "config/nextcloud/03-nextcloud-google-oauth-provider.sh",
+        "title":  "Nextcloud OAuth provider"
+    },
+    {
+        "v4":  "config/nextcloud/hardening.sh",
+        "legacy":  "config/nextcloud/04-bacscloud-production-hardening.sh",
+        "title":  "Nextcloud hardening"
+    },
+    {
+        "v4":  "config/nextcloud/access-verify.sh",
+        "legacy":  "config/nextcloud/05-bacscloud-access-verify.sh",
+        "title":  "Nextcloud access verify"
+    },
+    {
+        "v4":  "config/nextcloud/admin-overview-cleanup.sh",
+        "legacy":  "config/nextcloud/06-bacscloud-admin-overview-cleanup.sh",
+        "title":  "Nextcloud admin overview cleanup"
+    },
+    {
+        "v4":  "config/nextcloud/social-login-registration.sh",
+        "legacy":  "config/nextcloud/07-bacscloud-social-login-and-registration.sh",
+        "title":  "Nextcloud social login registration"
+    },
+    {
+        "v4":  "config/immich/storage-verify.sh",
+        "legacy":  "config/immich/01-immich-storage-verify.sh",
+        "title":  "Immich storage verify"
+    },
+    {
+        "v4":  "config/immich/users-smtp-library-note.sh",
+        "legacy":  "config/immich/02-immich-users-smtp-external-library-note.sh",
+        "title":  "Immich users SMTP library note"
+    },
+    {
+        "v4":  "config/immich/reset-final-config.sh",
+        "legacy":  "config/immich/03-immich-reset-final-config.sh",
+        "title":  "Immich reset final config"
+    },
+    {
+        "v4":  "config/ollama/models.sh",
+        "legacy":  "config/ollama/01-ollama-models.sh",
+        "title":  "Ollama model config"
+    },
+    {
+        "v4":  "config/ollama/openwebui-models-admin-note.sh",
+        "legacy":  "config/ollama/01-openwebui-models-and-admin-note.sh",
+        "title":  "OpenWebUI models admin note"
+    },
+    {
+        "v4":  "config/ollama/fix-openwebui-admin.sh",
+        "legacy":  "config/ollama/02-fix-openwebui-admin.sh",
+        "title":  "OpenWebUI admin repair"
+    },
+    {
+        "v4":  "config/seerr/readiness.sh",
+        "legacy":  "config/seerr/01-seerr-config-readiness.sh",
+        "title":  "Seerr config readiness"
+    },
+    {
+        "v4":  "config/seerr/full-auto-config.sh",
+        "legacy":  "config/seerr/02-seerr-full-auto-config.sh",
+        "title":  "Seerr full auto config"
+    },
+    {
+        "v4":  "config/uptime-kuma/smtp-note.sh",
+        "legacy":  "config/uptime-kuma/01-uptime-kuma-smtp-note.sh",
+        "title":  "Uptime Kuma SMTP note"
+    },
+    {
+        "v4":  "config/uptime-kuma/auto-config.sh",
+        "legacy":  "config/uptime-kuma/02-uptime-kuma-auto-config.sh",
+        "title":  "Uptime Kuma auto config"
+    },
+    {
+        "v4":  "config/pbs/backup-automation.sh",
+        "legacy":  "config/pbs/01-pbs-backup-automation.sh",
+        "title":  "PBS backup automation"
+    },
+    {
+        "v4":  "proxmox/storage/normalize-local-storage.sh",
+        "legacy":  "tasks/proxmox/storage/normalize-local-storage.sh",
+        "title":  "Normalize local VM storage"
+    },
+    {
+        "v4":  "health/hardware-preflight.sh",
+        "legacy":  "tasks/maintenance/health/hardware-preflight.sh",
+        "title":  "Hardware preflight"
+    },
+    {
+        "v4":  "health/full.sh",
+        "legacy":  "tasks/maintenance/health/full-health-check.sh",
+        "title":  "Full health check"
+    },
+    {
+        "v4":  "health/service-audit.sh",
+        "legacy":  "tasks/maintenance/health/full-service-audit.sh",
+        "title":  "Full service audit"
+    },
+    {
+        "v4":  "health/vm-resource-audit.sh",
+        "legacy":  "tasks/maintenance/health/vm-resource-audit.sh",
+        "title":  "VM resource audit"
+    },
+    {
+        "v4":  "health/audit-repo.sh",
+        "legacy":  "tasks/maintenance/health/audit-repo.sh",
+        "title":  "Repo audit"
+    },
+    {
+        "v4":  "repair/gpu-passthrough.sh",
+        "legacy":  "tasks/maintenance/repair/repair-gpu-passthrough.sh",
+        "title":  "GPU passthrough repair"
+    },
+    {
+        "v4":  "repair/dynamic-ram-profile.sh",
+        "legacy":  "tasks/maintenance/repair/apply-dynamic-ram-profile.sh",
+        "title":  "Dynamic RAM profile repair"
+    },
+    {
+        "v4":  "repair/ollama-tank-models.sh",
+        "legacy":  "tasks/maintenance/repair/repair-ollama-tank-models.sh",
+        "title":  "Ollama tank models repair"
+    },
+    {
+        "v4":  "repair/pbs-backup-storage.sh",
+        "legacy":  "tasks/maintenance/repair/repair-pbs-backup-storage.sh",
+        "title":  "PBS backup storage repair"
+    },
+    {
+        "v4":  "repair/nfs-mounts.sh",
+        "legacy":  "tasks/maintenance/repair/repair-nfs-mounts.sh",
+        "title":  "NFS mounts repair"
+    },
+    {
+        "v4":  "repair/chia-plot-disks.sh",
+        "legacy":  "tasks/maintenance/repair/repair-chia-plot-disks.sh",
+        "title":  "Chia plot disks repair"
+    },
+    {
+        "v4":  "support/create-support-bundle.sh",
+        "legacy":  "tasks/maintenance/logs/collect-support-bundle.sh",
+        "title":  "Create support bundle"
+    }
+]
